@@ -1,6 +1,6 @@
 import { Copy } from "lucide-react";
 import React, { useState } from "react";
-import Footer from "./Footer.Jsx";
+import Footer from "./Footer.jsx";
 
 const App = () => {
   const [longUrl, setLongUrl] = useState("");
@@ -58,7 +58,7 @@ const App = () => {
     <div class="selection:bg-orange-400 text-white absolute inset-0 -z-10 min-h-[100vh] md:w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
       <div className="md:flex items-center justify-center md:pr-40 md:pl-40 w-[100%]">
         <div className="grid items-center">
-          <h1 className="flex items-center justify-center text-white text-3xl md:text-6xl pb-9">URL Shortener</h1>
+          <h1 className="flex items-center justify-center text-white text-3xl md:text-6xl  pb-9 md:pb-15">URL Shortener</h1>
           <div className="md:flex grid grid-cols-1 items-center justify-between md:w-xl gap-4">
             <input
               type="text"
